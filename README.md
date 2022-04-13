@@ -16,7 +16,7 @@
 
 # Hello from the Team! 
 
-# hey its anneke!
-# hello, shem here. :)
-# Hi, readme, it's me, Rai'd. 
-# Hi-yah, Brent here.  This time using the branch/merge process.
+ hey its anneke!
+ hello, shem here. :)
+ Hi, readme, it's me, Rai'd. 
+ Hi-yah, Brent here. 
