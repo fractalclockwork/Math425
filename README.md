@@ -13,10 +13,8 @@
 	FinalProjectProblem2.ipynb
 	FinalProjectProblem3.ipynb
 
-
 # Hello from the Team! 
-
- hey its anneke!
- hello, shem here. :)
- Hi, readme, it's me, Rai'd. 
- Hi-yah, Brent here. 
+	hey its anneke!
+	hello, shem here. :)
+	Hi, readme, it's me, Rai'd. 
+	Hi-yah, Brent here. 
