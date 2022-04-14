@@ -1,4 +1,4 @@
-# Requirements:
+# Requirements:  See also, requirements.txt
 	jupyter-notebooks
 	python3
 	numpy
