@@ -1,0 +1,16 @@
+Questions for Final Project:
+for part (ii)
+the image labels, are predicted and actual switched? 
+ex interesting cases, three is the actual value the code preicts 7? but labels are the other way around? 
+
+for part (iii) 
+print("The following plot explores setting a zero threshold for Sigma values \
+and provides a motivation for further studies into truncation, alignment, \
+optimal hard threshold and ilke.
+not sure what ilke is 
+can't tell if its a type or a math term I don't understand
+
+I don't understand the questions that part b wants us to solve
+
+part b) not sure where you got your 46.5% values from
+print this out somewhere as well?
