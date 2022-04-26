@@ -13,6 +13,9 @@
 	FinalProjectProblem2.ipynb
 	FinalProjectProblem3.ipynb
 
+# Video:  To see the accompanying video presentation follow the link below.
+	https://www.youtube.com/watch?v=RhzNblmp0FA
+
 # Hello from the Team! 
 	hey its anneke!
 	hello, shem here. :)
