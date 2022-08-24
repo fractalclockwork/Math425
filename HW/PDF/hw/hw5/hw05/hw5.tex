@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\pagestyle{empty}
+
+\topmargin -0.6in
+\headsep 0.40in
+\oddsidemargin 0.0in
+\textheight 9.0in
+\textwidth 6.5in
+
+\everymath={\displaystyle}
+
+\begin{document}
+
+\noindent
+Math 425 \qquad 
+Applied and Computational Linear Algebra \qquad
+Spring 2022
+\vskip 5pt
+\noindent
+hw5 ,  {\bf due on iLearn by 12:30pm on Tuesday, April 26}
+\vskip 10pt
+\noindent
+1. Find an orthogonal basis for the column space of the matrix $ A = \begin{bmatrix} -1 & ~~6 & ~~6\\~~3 & -8 & ~~3\\~~1 & -2 & ~~6\\~~1 & -4 & -3\end{bmatrix}$.
+\vskip 10pt
+\noindent
+2. Find an orthonormal basis for the column space of the matrix $ A = \begin{bmatrix}~~3 & -3 &~~0\\-4 & ~14 & 10\\~~5 & -7 & -2\end{bmatrix}$ .
+\vskip 10pt
+\noindent
+3.  Let ${\bf u}_1,\ldots, {\bf u}_p$ be an orthogonal basis for the subspace $W$ of ${\Bbb R}^n$, 
+and let $T: {\Bbb R}^n \rightarrow {\Bbb R}^n$ be defined by $ T({\bf x}) = \text{proj}_W {\bf x}$. Show that $T$ is a linear transformation.
+\vskip 10pt
+\noindent
+4. Let $A = \begin{bmatrix}~~1 & 2\\-1 & 4\\~~1 & 2\end{bmatrix}$ and ${\bf b} = \begin{bmatrix} ~~3\\ -1\\~~5\end{bmatrix}$.
+Find (a) the orthogonal projection of ${\bf b}$ onto $\text{Col}~A$ and (b) a least-squares solution of
+$A{\bf x} = {\bf b}$.
+\vskip 10pt
+\noindent
+5. Let $A = \begin{bmatrix}~~2 & 1\\-2 & 0\\~~2 & 3\end{bmatrix}$ and ${\bf b} = \begin{bmatrix}-5\\~~8\\~~1\end{bmatrix}$. Find the least-squares solution of $A~{\bf x} = {\bf b}$.
+\vskip 10pt
+\noindent
+6. Let 
+\[
+A = \begin{bmatrix}1 & 1 & 0\\1 & 1 & 0\\1 & 1 & 0\\ 1 & 0 & 1\\ 1 & 0 & 1 \\1 & 0 & 1 \end{bmatrix} \hskip 20pt \text{and } {\bf b} = \begin{bmatrix} 7\\ 2\\3\\6\\5\\4\end{bmatrix}.
+\]
+ Describe all 
+least-squares solutions of the equation $A{\bf x} = {\bf b}$.
+\vskip 10pt
+\noindent
+7. Let 
+\[
+A = \begin{bmatrix}1 & -1 \\1 & ~~4\\1 & -1\\1 & ~~4\end{bmatrix} = \begin{bmatrix} 1/2 & -1/2\\ 1/2 & ~~1/2 \\1/2 & - 1/2 \\1/2 & ~~1/2\end{bmatrix}~\begin{bmatrix}2 & 3\\0 & 5\end{bmatrix},\hskip 20pt
+\]
+be the factorization $A = QR$ and let ${\bf b} = \begin{bmatrix} -1\\~~6\\~~5\\~~7\end{bmatrix}$.
+Use the $QR$ factorization to find the least-squares solution of $A{\bf x} = {\bf b}$.
+\clearpage
+\noindent
+8. A healthy child's systolic blood pressure $p$ (in millimeters of mercury) and weight $w$ (in pounds) are approximately related by the equation
+\[
+\beta_0 + \beta_1\ln w = p.
+\]
+Use the following experimental data to estimate the systolic blood pressure of a healthy child weighing 100 pounds.
+\begin{center}
+\begin{tabular}{l | c c c c c}
+$w$ & 44 & 61 & 81 & 113 & 131 \\
+\hline
+$\ln w$ & 3.78 & 4.11 & 4.41 & 4.73 & 4.88\\
+\hline
+$p$ & 91 & 98 & 103 & 110 & 112
+\end{tabular}
+\end{center}
+\vskip 10pt
+\noindent
+9. To measure the takeoff performance of an airplane, the horizontal position of the plane was measured every second, from $t = 0$ to $t=12$. The positions (in feet) were: 0, ~8.8, ~29.9, ~62.0,~ 104.7,~ 159.1,~ 222.0, ~294.5, ~ 380.4,~ 471.1,~ 571.7,~, 686.8,~ 809.2 .
+\begin{itemize}
+\item[(a)] Find the least-squares cubic curve $y = \beta_0 + \beta_1 t + \beta_2 t^2 + \beta_3 t^3$ for these data.
+\item[(b)] Use the result of (a) to estimate the velocity of the plane when $t = 4.5$ seconds.
+\end{itemize}
+\vskip 10pt
+\noindent
+10. Find the singular values of the matrix $\begin{bmatrix}-5 & 0\\~~0 & 0\end{bmatrix}$.
+\vskip 10pt
+\noindent
+11. Suppose the factorization below is an SVD of a matrix $A$, with the entries in $U$ and $V$ rounded to two decimal places.
+\[
+A = \begin{bmatrix} -0.86 & -0.11 & -0.50\\~~0.31 & ~~0.68 & -0.67\\~~0.41 & -0.73 & -0.55 \end{bmatrix}  
+\begin{bmatrix} 12.48 & 0 & 0 & 0\\ 0 & 6.34 & 0 & 0 \\ 0 & 0 & 0 & 0\end{bmatrix} 
+\begin{bmatrix} ~~0.66 & -0.03 & -0.35 & ~~0.66\\ -0.13 & -0.90 & -0.39 & -0.13 \\ ~~0.65 & ~~0.08 & -0.16 & -0.73 \\ -0.34 & ~~0.42 & -0.84 & -0.08 \end{bmatrix}
+\]
+ \begin{itemize}
+ \item[(a)] What is the rank of $A$?
+ \item[(b)] Use this decomposition of $A$, with no calculations, to write a basis for Col $A$ and a basis for Nul $A$.
+ \end{itemize}
+\vskip 10pt
+\noindent
+12. Suppose $A$ is square and invertible. Find a singular value decomposition of $A^{-1}$.
+\vskip 10pt
+\noindent
+13. Show that if $A$ is square, then $| \det A |$ is the product of the singular values of $A$.
+\vskip 10pt
+\noindent
+14. Find the \emph{minimal length} least-squares solution of the equation $A{\bf x} = {\bf b}$, where 
+\[
+A = \begin{bmatrix} 1 & 1 & 0\\1 & 1 & 0\\1 & 0 & 1\\ 1 & 0 & 1\end{bmatrix}, ~~{\bf b} = \begin{bmatrix} 1\\3\\8\\2\end{bmatrix}.
+\]
+
+\end{document} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
